@@ -1,0 +1,82 @@
+/* Contact */
+.contact-head{
+    margin-top: 5vh;
+    padding-left: 6vw;
+}
+.contact{
+    display: flex;
+    height: 60vh;
+    width: 100%;
+    padding-bottom: 5vh;
+}
+.contact-left{
+    height: 100%;
+    width: 50%;
+    padding-left: 5vw;
+    margin-top: 5vh;
+}
+.contact-right{
+    margin-top: 15vh;
+    height: 100%;
+    width: 50%;
+    padding-left: 10vw;
+    display: block;
+    display: inline-block;
+    outline: none;
+    color: black;
+}
+.contact-head{
+    font-size: 1.5rem;
+}
+.contact-query{
+    margin: 5vh 0;
+    font-size: 1.5rem;
+}
+.contact-info{
+    padding-right: 11vw;
+    font-size: 1.2rem;
+    color: black;
+    padding-bottom: 3vh;
+}
+.email{
+    padding: 1vh 0;
+}
+form input{
+    border: none;
+    outline: none;
+    background-color: #c9c9ce;
+    width: 70%;
+    padding: 4vh;
+    color: #0000;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.fullnames{
+    color: #000;
+}
+.emailids{
+    color: #000;
+}
+.subjects{
+    color: #000;
+}
+.submit-form{
+    color: black;
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 5px white,
+    0 0 25px white, 
+    0 0 50px white;
+    border-radius: 30px;
+    padding: 2vh 5vh;
+    margin-top: 5vh;
+    margin-left: 8vw;
+}
+.submit-form:hover{
+    box-shadow: 0 0 5px white,
+    0 0 25px white, 
+    0 0 50px white,
+    0 0 100px white;
+}

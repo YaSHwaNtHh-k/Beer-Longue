@@ -1,0 +1,41 @@
+.qrcode img{
+    height: 250px;
+    width: 200px;
+}
+.buy{
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 5vh 10vw 0 25vw;
+}
+.buy .qrcode{
+    padding:2vh 10vw;
+}
+.email input{
+    border: none;
+    outline: none;
+    background-color: #c9c9ce;
+    width: 70%;
+    padding: 4vh;
+    color: #d02d2d00;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.productID{
+    display: none;
+}
+.name{
+    color: #000;
+}
+.email{
+    color: #000;
+}
+.ufc-code{
+    color: #000;
+}
+.buy button{
+    margin: 2vh 14vw;
+} 

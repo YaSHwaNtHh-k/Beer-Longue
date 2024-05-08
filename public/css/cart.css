@@ -1,0 +1,35 @@
+.cart{
+    display: flex;
+    height: 30vh;
+    width: 56%;
+    padding: 5vh 7vw;
+    background-color: rgb(217, 220, 220);
+    margin: 5vh 15vw;
+    border-radius: 5rem;
+    color: black;
+}
+.cart img{
+    height: 20vh;
+    width: 10vw;
+    border-radius: 2rem;
+}
+.cart-info{
+    padding:3vh 0 0 1vw;
+}
+.delete{
+    padding: 7.5vh 0 0 1vw ;
+    background-color: rgb(217, 220, 220);
+    color: black;
+}
+.delete:hover{
+    color: red;
+}
+.buynow{
+    margin: 7vh 0;
+    padding: .7vh 1vw;
+    border-radius: 1rem;
+}
+.buynow:hover{
+    background-color: red;
+    color: white;
+}

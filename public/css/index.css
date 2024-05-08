@@ -1,0 +1,46 @@
+.container-images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+#card{
+    height: 54vh;
+    width: 25vw;
+    margin: 3vh 0  2vh 0vw;
+    padding: 4vh 1vw;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+#card:hover{
+    opacity: .6;
+    background-color: white;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0.2, 0.2);
+}
+.container-images a{
+    color: black;
+    text-decoration: none;
+}
+.card-img{
+    height: 35vh;
+    width: 25%;
+    object-fit: cover;
+    border: 1px solid white;
+}
+.seemore{
+    margin:.8vh 8vw ;
+    padding: .2vh 1vw;
+    border-radius: 2rem;
+    border: none;
+    color: red;
+    background-color: cyan;
+    opacity: 2;
+}
+.seemore:hover{
+    opacity: 2;
+    color: rgb(226, 3, 3);
+}
+.delete{
+    border: none;
+}

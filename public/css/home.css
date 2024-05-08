@@ -1,0 +1,48 @@
+/* Home */
+.home{
+    display: flex;
+    height: 60vh;
+    width: 100%;
+}
+.left-home{
+    height: 100%;
+    width: 45%;
+    padding: 25vh 5vw ;
+    margin-right: 10vw;
+}
+.right-home{
+    background-image: url("https://wainwrightbeer.com/wp-content/uploads/2024/04/amber-large3.png");
+    height: 100%;
+    width: 40%;
+    margin-top: 8vh;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.msg{
+    color: #088178;
+}
+.save{
+    padding-top: 2vh;
+    color: rgb(66, 64, 64);
+}
+.shop{
+    background-image: url("https://i.imgur.com/zapxDMR.jpeg");
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 2vh 5vw;
+    margin-top: 3vh;
+    font-size: 1rem;
+    color: #088178;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.shop a{
+    color: black;
+}
+

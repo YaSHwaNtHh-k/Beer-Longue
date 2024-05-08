@@ -1,0 +1,15 @@
+<%- layout("layouts/boilerplate.ejs") %>
+<% for(cart of allbuy){ %>
+    <% if(currUser && currUser._id.equals(cart.author._id)){ %>
+        <div class="cart">
+            <img src="<%= cart.image %>">
+            <div class="cart-info">
+                <h4><%= cart.productname %></h4>
+                <p><%= cart.date %></p>
+            </div>
+            <form action="/orders/<%=cart._id%>?_method=DELETE" method="post">
+                <button class="delete"><i class="fa-solid fa-trash"></i></button>
+            </form>
+        </div>   
+    <% } %>
+<% } %>
